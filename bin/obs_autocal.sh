@@ -85,7 +85,7 @@ datadir=/astro/mwasci/$USER/$project
 # set dependency
 if [[ ! -z ${dep} ]]
 then
-    echo "Depends on ${dep}"
+#     echo "Depends on ${dep}"
     depend="--dependency=afterok:${dep}"
 fi
 
